@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Samples.Tests", "SOLID.Tests\SOLID.Samples.Tests.csproj", "{DA7D5EFD-E3E6-4B19-87D1-BFA415CEAC9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Samples", "SOLID.Samples\SOLID.Samples.csproj", "{C4E6601A-2C6E-4507-A447-5E2E8725F408}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA7D5EFD-E3E6-4B19-87D1-BFA415CEAC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7D5EFD-E3E6-4B19-87D1-BFA415CEAC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7D5EFD-E3E6-4B19-87D1-BFA415CEAC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7D5EFD-E3E6-4B19-87D1-BFA415CEAC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E6601A-2C6E-4507-A447-5E2E8725F408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E6601A-2C6E-4507-A447-5E2E8725F408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E6601A-2C6E-4507-A447-5E2E8725F408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E6601A-2C6E-4507-A447-5E2E8725F408}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

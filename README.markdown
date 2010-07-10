@@ -1,0 +1,1 @@
+This is the presentation and sample code for my "SOLID Principles" talk at Orlando Code Camp 2008. To download a zip directly please go to <http://www.github.com/schambers/solid-principles/zipball/master>

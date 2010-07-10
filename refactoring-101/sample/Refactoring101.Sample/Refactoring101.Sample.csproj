@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4E109AA-0211-433D-AA8A-EE13D3928907}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Refactoring101.Sample</RootNamespace>
+    <AssemblyName>Refactoring101.Sample</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="After\01_ExtractMethod.cs" />
+    <Compile Include="After\02_Rename.cs" />
+    <Compile Include="After\03_ExtractMethodObject.cs" />
+    <Compile Include="After\04_ExtractInterface.cs" />
+    <Compile Include="After\05_StaticDependency.cs" />
+    <Compile Include="After\07_InheritanceToDelegation.cs" />
+    <Compile Include="After\08_BreakResponsibilities.cs" />
+    <Compile Include="After\06_SwitchToStrategy.cs" />
+    <Compile Include="After\09_Duplication.cs" />
+    <Compile Include="After\06_SwitchToStrategy_Simple.cs" />
+    <Compile Include="After\Model\Customer.cs" />
+    <Compile Include="After\Model\Benefit.cs" />
+    <Compile Include="After\Model\Employee.cs" />
+    <Compile Include="After\Model\Manager.cs" />
+    <Compile Include="After\Model\Video.cs" />
+    <Compile Include="After\Model\UrlContext.cs" />
+    <Compile Include="After\Model\UrlType.cs" />
+    <Compile Include="After\Model\User.cs" />
+    <Compile Include="After\Model\UserResult.cs" />
+    <Compile Include="Before\02_Rename.cs" />
+    <Compile Include="Before\03_ExtractMethodObject.cs" />
+    <Compile Include="Before\04_ExtractInterface.cs" />
+    <Compile Include="Before\05_StaticDependency.cs" />
+    <Compile Include="Before\07_InheritanceToDelegation.cs" />
+    <Compile Include="Before\08_BreakResponsibilities.cs" />
+    <Compile Include="Before\06_SwitchToStrategy.cs" />
+    <Compile Include="Before\09_Duplication.cs" />
+    <Compile Include="Before\Model\Benefit.cs" />
+    <Compile Include="Before\Model\Employee.cs" />
+    <Compile Include="Before\Model\Manager.cs" />
+    <Compile Include="Before\01_ExtractMethod.cs" />
+    <Compile Include="Before\Model\User.cs" />
+    <Compile Include="Before\Model\UserResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

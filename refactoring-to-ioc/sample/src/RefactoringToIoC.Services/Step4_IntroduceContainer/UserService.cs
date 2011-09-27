@@ -21,7 +21,7 @@ namespace RefactoringToIoC.Services.Step4_IntroduceContainer
 			// In an MVC app, we would register a controller factory that would inject
 			// instances for us
 
-			// MVCControllerFactory = new NinjectControllerFactory(kernel);
+			// ControllerFactory = new NinjectControllerFactory(kernel);
 		}
 
 		public void IncomingHttpRequest()

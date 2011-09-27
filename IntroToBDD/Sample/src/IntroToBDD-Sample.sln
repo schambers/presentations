@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToBDD-Sample.Tests", "IntroToBDD-Sample.Tests\IntroToBDD-Sample.Tests.csproj", "{339C598E-52A9-4932-B1B2-FB25BA0626F5}"
 EndProject
 Global
